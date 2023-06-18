@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <script type ="text/javascript" src="scripts/scripts.js" defer></script>
+    </head>
+    <body>
+        <div id="passwordcontainer">
+            <input type="text" value="sD@grj6uop" id="password">
+        </div>
+        <div id="passwordrangecontainer">
+             <input type="range" min="6" max="16" value="10" id="passwordrange">
+        </div>
+
+        <p id="passwordlength">Password length: 10</p>
+            <div id="strength">
+                 <div id="passstrength"> Password strength: Medium</div>
+            </div>
+            
+        <div class="selectors">
+            <input type="checkbox" name="lowercase" id="lowercase" checked>
+            <label for="lowercase">Lowercase</label>
+            <input type="checkbox" name="uppercase" id="uppercase" checked>
+            <label for="uppercase">Uppercase</label>
+            <input type="checkbox" name="numbers" id="numbers" checked>
+            <label for="numbers">Numbers</label>
+            <input type="checkbox" name="symbols" id="symbols">
+            <label for="symbols">Symbols</label>
+        </div>
+
+        <div class="generatebutton">
+            <input type="button" value="Generate Password" id="generatebutton">
+        </div>
+        <div class="copybutton">
+            <input type="button" value="Copy Password" id="copybutton">
+        </div>
+        <div id="errorhandlingcontainer">
+        <p id="errorhandling"> </p>
+        </div>
+    </body>
+</html>
+
+<!-- Git tested -->
